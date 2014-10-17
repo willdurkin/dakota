@@ -1,0 +1,370 @@
+@font-face {
+font-family: futura;
+src: url('images/futura.ttc');
+}
+
+body{ 
+        padding: 0 5px;
+        font-family: Allerta, 'Josefin Sans', Verdana, sans-serif;
+        background-color: #fff;
+
+}
+
+#wrapper {
+        min-width: 1200px;
+        display: block;
+        overflow: hidden;
+}
+
+ul, li, h3, h2, h1, p, #navigation, #content,.section{
+        padding:0;
+        margin:0;
+        list-style:none;
+}
+
+#title {
+        position: relative;
+        top: -9999px;
+}
+
+#content{
+        overflow:hidden;
+        width:900px;
+        background-color:white;
+        position:relative;
+        height:650px;
+        float:left;
+
+}
+
+
+
+#content h2{
+        color:#993333;
+        margin:20px 0pt;
+}
+
+#content a{
+        color:#1d1e19;
+        font-weight:bolder;
+        text-decoration:none;
+}
+#navigation{        
+        float:left;
+        width:200px;
+        height:400px;
+        background-color:#fff;
+        text-align: right;
+        margin-left: 20px;
+}
+
+#logo {
+        width: 200px;
+}
+
+.active {
+        /*text-decoration: underline;*/
+}
+
+#navigation {
+        margin-right: 20px !important
+}
+
+#navigation .sup{
+        margin:10px 0px;
+        
+}
+#navigation ul{
+        margin:5px 0;
+        list-style:circle;
+        padding-left:15px;                                                
+}
+
+#navigation a{
+        color:black;
+        font-family: Allerta, 'Josefin Sans';
+        font-weight: 200;
+        font-size:18px;
+        text-decoration:none;
+        letter-spacing: 2px;
+}
+
+
+#navigation .sup li{
+        margin: 3px 0 !important;
+        margin:-4px 0;
+        font-size:15px;
+}
+
+#navigation a:hover {
+        text-decoration: underline;
+}
+
+#navigation a.scrolling{
+        color:#933;
+}
+
+.bg {
+        width: 790px;
+        height: 630px;
+        padding-left: 35px;
+        
+}
+
+.section{
+        width:20000px;
+        height: 650px;
+        position:relative;
+        background: url('../images/trees.jpg');
+        background-repeat: repeat;
+        background-size: 400px 400px;
+}
+                
+.section .sub{
+        position:relative;
+        float:left;
+        width:900px;
+        height:600px;
+
+}
+
+.section .sub p{
+        width:550px;
+        margin:16px 0;
+        font-size: 16px;
+        
+        
+}
+/*.section .next, .section .prev, .section .up, .section .down, .section .gnome, .section .jaybird{
+        font-size:18px;
+        position:absolute;
+        bottom:15px;
+        letter-spacing:-2px;*/
+
+.section .next{
+        position:absolute;
+        left:810px;
+        top:580px;
+
+}
+.section .prev{
+        position:absolute;
+        left:40px;
+        top:577px;
+}
+
+.section .down {
+        transform:rotate(90deg);
+        -ms-transform:rotate(90deg); /* IE 9 */
+        -webkit-transform:rotate(90deg); /* Opera, Chrome, and Safari */ 
+        left: 462px;
+        top: 615px;
+        position:absolute;
+
+}
+
+.section .up {
+        transform:rotate(90deg);
+        -ms-transform:rotate(90deg); /* IE 9 */
+        -webkit-transform:rotate(90deg); /* Opera, Chrome, and Safari */ 
+        left: 445px;
+        bottom: 565px;
+        position:absolute;
+}
+
+.section .gnome {
+        left: 430px;
+        top: 300px;
+        position:absolute;
+}
+
+.section .gnome p{
+        display: block;
+        position: absolute;
+        font-size: 18px;
+        color: white;
+        bottom: 190px;
+        left: 30px;
+        letter-spacing: 11px;
+        
+
+}
+
+.center {
+       
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-right: auto;
+        margin-left: auto;
+        border: solid 11px black;
+        border-radius: 3px;
+        display: block;
+        margin: auto;  
+        position: absolute;
+        left:0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+}
+
+/*.center1 {
+        
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        margin: auto;  
+        
+        left:0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+}*/
+
+#cute img{
+        
+        left:240px;
+        bottom: 10px;
+        border: solid 11px black;
+        border-radius: 3px;
+        position:absolute;
+        display: block;
+}
+
+#connection img{
+        left:160px;
+        bottom: 70px;
+        border: solid 11px black;
+        border-radius: 3px;
+        position:absolute;
+        display: block;
+}
+
+#dead img {
+        left:240px;
+        bottom: 20px;
+        border: solid 11px black;
+        border-radius: 3px;
+        position:absolute;
+        display: block;       
+        width: 400px;
+}
+
+
+
+
+
+/*///////////LINKS////////////*/
+                
+#links, h2.title{
+        position:absolute;
+        right:5px;
+}
+
+#links{
+        border:1px solid #777;
+        width:210px;
+        top:78px;
+}
+
+#links h3{
+        color:#777;
+}
+
+#links ul{
+        padding: 8px 0 3px 20px;
+}
+
+#links li{
+        list-style-type:circle;
+}
+
+#links a{
+        color:#69C;
+}
+
+.message{
+        background:#EEE;
+        border:1px solid #999;
+        color:#333;
+        font-size:12px;
+        padding:1px;
+        position:absolute;
+        left:11px;
+}
+#first{
+        top:484px !important;
+        top:498px;                        
+}
+#second{
+        top:503px !important;
+        top:517px;                        
+}
+
+h1{
+        margin:20px 0;
+        color:#5B739C;
+}
+        h1 strong{
+                font-size:13px;
+                color:#777;
+        }
+h2.title{
+        top:28px;
+        color:#933;
+}
+
+#text {
+        height: 400px;
+        width: 250px;
+        
+        margin-top: -630px;
+        margin-left: 430px;
+        font-family: Allerta;
+        color: white;
+        font-size: 18px;
+}
+#text p {
+        width: 350px;
+        margin-bottom: -10px;
+        text-align: right;
+        letter-spacing: 1px;
+}
+
+#contact {
+        text-align: right;
+        position: relative;
+        margin-bottom: -5px;
+}
+
+#contact a{
+        color: white;
+        font-size: 14px;
+}
+
+#section4 iframe{
+        overflow-y: scroll;
+        padding-left: 40px;
+}
+
+#hi {
+        margin-top: -100px;
+        margin-left: 700px;
+
+
+}
+
+#hi p {
+        color: white;
+        font-family: Allerta;
+        font-weight: bold;
+        font-size: 28px;
+}
+
+#video {
+        padding-left: 20px;
+}
+
+
+
